@@ -1,0 +1,53 @@
+@media (min-width:1024px){
+
+    
+}
+
+@media (min-width:740px) and (max-width:1023px){
+
+    
+}
+
+@media (max-width:739px){
+    #header .button-menu-bar,
+    #nav,
+    #nav li {
+        display: block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .button-search{
+        display: none;
+    }
+
+    #nav > li:first-child > a{
+        display: inline-block;
+    }
+
+    #nav li .subnav {
+        position: relative;
+    }
+
+    #nav li .subnav a{
+        background-color: #333;
+        color: #fff;
+        padding: 10px 37px;
+    }
+    #content .information-place .content-place .button_ticket,
+    .s-width-full,
+    .s-col-full,
+    #content .place-entertaiment .information-place,
+    #content .member-band .member-item{
+        width: 100%;
+    }
+
+    #content .member-band .member-img{
+        width: 60%;
+    }
+    .s-magging{
+        margin-bottom: 8px;
+    }
+}
